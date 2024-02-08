@@ -14,6 +14,7 @@ public int? CurrentHighBid {get; set;}
 public DateTime CreatedAt {get;set;} = DateTime.UtcNow;
 
 public DateTime AuctionEnd {get;set;}
+public DateTime UpdatedAt{get;set;} = DateTime.UtcNow;
 public Status Status {get;set;}
 public Item  Item {get;set;}
 }
